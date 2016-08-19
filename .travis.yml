@@ -65,7 +65,7 @@ matrix:
     # recipe.
     - language: generic
       os: osx
-      env: Python='2.6.9' PythonBin="/Users/travis/.pyenv/versions/2.6.9/bin/python"
+      env: Python='2.6.9' PythonBin="/Users/travis/.pyenv/versions/2.6.9/bin/python" TERM='linux'
       install:
         #brew update;
         #brew install python26; # This is no longer available.
