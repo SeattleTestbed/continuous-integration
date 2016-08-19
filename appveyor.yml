@@ -1,4 +1,7 @@
-# Seattle supports Python 2.5 through 2.7, per https://seattle.poly.edu/wiki/ProgrammersPage
+# Seattle supports Python 2.6 through 2.7, per
+# github.com/SeattleTestbed/docs/blob/master/Contributing/BuildInstructions.md
+# Python 2.5 is included for testing because this is what PlanetLab runs
+#
 # AppVeyor provides Windows-based testing.
 # On Windows, we currently test on Python 2.6 and 2.7.
 # The result of the current configuration should be 4 runs:
